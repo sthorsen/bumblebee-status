@@ -184,11 +184,21 @@
 		}
     },
 	"git": {
-		"main": { "prefix": "" },
-		"master": { "prefix": "" },
-		"new": { "prefix": "" },
-		"modified": { "prefix": "" },
-		"deleted": { "prefix": "" }
+		"main": {
+			"prefix": ""
+		},
+		"master": {
+			"prefix": ""
+		},
+		"new": {
+			"prefix": ""
+		},
+		"modified": {
+			"prefix": ""
+		},
+		"deleted": {
+			"prefix": ""
+		}
 	},
     "dunst": {
         "muted": { "prefix": ""},
