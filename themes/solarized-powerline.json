@@ -46,6 +46,7 @@
   "git": {
 	"modified": { "bg": "#2aa198" },
 	"deleted": { "bg": "#d33682" },
-	"new": { "bg": "#859900" }
+	"new": { "bg": "#859900" },
+	"master": { "bg": "#dc322f" }
   }
 }

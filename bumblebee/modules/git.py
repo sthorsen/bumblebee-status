@@ -40,7 +40,10 @@ class Module(bumblebee.engine.Module):
             directory = self._get_git_root(directory)
             repo = pygit2.Repository(directory)
 
-            new_widgets.append(bumblebee.output.Widget(name='git.main', full_text=repo.head.shorthand))
+            if repo.head.shorthand == 'master':
+                new_widgets.append(bumblebee.output.Widget(name='git.master', full_text=repo.head.shorthand))
+            else:
+                new_widgets.append(bumblebee.output.Widget(name='git.main', full_text=repo.head.shorthand))
 
             for filepath, flags in repo.status().items():
                 if flags == pygit2.GIT_STATUS_WT_NEW or \
