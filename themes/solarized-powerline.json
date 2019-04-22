@@ -44,9 +44,18 @@
 		}
 	},
   "git": {
-	"modified": { "bg": "#2aa198" },
-	"deleted": { "bg": "#d33682" },
-	"new": { "bg": "#859900" },
-	"master": { "bg": "#dc322f" }
+	"modified": {
+		"bg": "#2aa198"
+	},
+	"deleted": {
+		"bg": "#d33682"
+	},
+	"new": {
+		"bg": "#859900"
+	},
+	"master": {
+		"fg": "#002b36",
+		"bg": "#dc322f"
+	}
   }
 }
